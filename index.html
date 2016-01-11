@@ -5,33 +5,25 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title></title>
-<link rel="stylesheet" type="text/css" href="css/foundation.css">	
+<link rel="stylesheet" type="text/css" href="css/foundation.css">
+<link rel="stylesheet" type="text/css" href="css/app.css">
+<link rel="stylesheet" type="text/css" href="css/reveal.css">
+<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+<script src="js/jquery.reveal.js"></script>
+
 </head>
 <body>
-
-<form name="simpleform">
-	<div class="row">
-	<label>Name
-       <input  type="text" placeholder="Name">
-	</label>
-	<label>Email
-       <input  type="text" placeholder="Name">
-	</label>
-<div class="small-6 large-6 columns">
-	<select name="gender" id="">
-		<option value="male">Male</option>
-		<option value="female">Female</option>
-	</select>
+<!-- modal tab -->
+<div id="myModal" class="reveal-modal">
+     <h1>Modal Title</h1>
+     <p>Any content could go in here.</p>
+     <a class="close-reveal-modal">&#215;</a>
 </div>
-<div class="small-6 large-6 columns">
- <date type="date" name="dob">
-</div>
-</form>
 
-
-
+<a href="#" data-reveal-id="myModal">Click Me For A Modal</a>
 
 <script src="js/vendor/jquery.min.js"></script>
-<script src="js/foundation.min.js"></script>
+<script src="js/foundation.js"></script>
 </body>
 </html>

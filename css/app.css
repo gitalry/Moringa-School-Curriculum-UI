@@ -1,0 +1,11 @@
+ul{
+    float: left;
+   margin: 50px 0 0 0;
+   width: 126px;
+}
+.tabs-content{
+   background-color: #f2f2f2;
+   padding: 20px 10px;
+   overflow: auto;
+}
+
