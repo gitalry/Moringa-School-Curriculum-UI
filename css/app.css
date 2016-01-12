@@ -1,11 +1,23 @@
+#myModal .tabs-content{
+  font-family: 'Raleway', serif;
+    color: #666;
+    text-align: center;
+    /*background: #29293a;*/
+}
+
 h1 {
   color: #333;
   font-family: arial, sans-serif;
   margin: 1em auto;
   width: 80%;
+  font-family: 'Raleway', serif;
 }
 
-.tabordion {
+p{
+  font-family: 'Raleway', serif;
+}
+
+.tabs-content {
   color: #333;
   display: block;
   font-family: arial, sans-serif;
@@ -14,39 +26,39 @@ h1 {
   width: 80%;
 }
 
-.tabordion input[name="sections"] {
+.tabs-content input[name="sections"] {
   left: -9999px;
   position: absolute;
   top: -9999px;
 }
 
-.tabordion section {
+.tabs-content section {
   display: block;
 }
 
-.tabordion section label {
+.tabs-content section label {
   background: #ccc;
   border:1px solid #fff;
   cursor: pointer;
   display: block;
   font-size: 1.2em;
   font-weight: bold;
-  padding: 15px 20px;
+  /*padding: 15px 20px;*/
   position: relative;
   width: 180px;
   z-index:100;
 }
 
-.tabordion section article {
+.tabs-content section article {
   display: none;
   left: 230px;
   min-width: 300px;
-  padding: 0 0 0 21px;
+  /*padding: 0 0 0 21px;*/
   position: absolute;  
   top: 0;
 }
 
-.tabordion section article:after {
+.tabs-content section article:after {
   background-color: #ccc;
   bottom: 0;
   content: "";
@@ -58,12 +70,12 @@ h1 {
   z-index:1;
 }
 
-.tabordion input[name="sections"]:checked + label { 
+.tabs-content input[name="sections"]:checked + label { 
   background: #eee;
   color: #bbb;
 }
 
-.tabordion input[name="sections"]:checked ~ article {
+.tabs-content input[name="sections"]:checked ~ article {
   display: block;
 }
 
@@ -74,21 +86,21 @@ h1 {
     width: 100%;
   }
 
-  .tabordion {
+  .tabs-content {
     width: 100%;
   }
   
-  .tabordion section label {
+  .tabs-content section label {
     font-size: 1em;
     width: 160px;
   }  
 
- .tabordion section article {
+ .tabs-content section article {
     left: 200px;
     min-width: 270px;
   } 
   
-  .tabordion section article:after {
+  .tabs-content section article:after {
     background-color: #ccc;
     bottom: 0;
     content: "";
@@ -108,7 +120,7 @@ h1 {
     width: 96%;
   }
 
-  .tabordion {
+  .tabs-content {
     width: 96%;
   }
 }
@@ -119,7 +131,7 @@ h1 {
     width: 70%;
   }
 
-  .tabordion {
+  .tabs-content {
     width: 70%;
   }
 }
