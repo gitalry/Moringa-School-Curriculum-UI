@@ -23,3 +23,29 @@ h6{
 .subheader{
   color: #fff;
 }
+/*footer*/
+.copy {
+    background-color: #51e551;
+    padding: 2em 0;
+    text-align: center;
+    color: #fff;
+}
+.copy p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+.copy p a {
+    color: #fff;
+}
+.copy p a:hover {
+    color: #999;
+}
+
+.footer{
+  width:100%;
+  height:20%; 
+  position:relative;
+  bottom:0;
+  left:0;
+}
