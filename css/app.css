@@ -2,7 +2,7 @@ html,
 body {
     font-family: 'Raleway', serif;
     color: #232a35;
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -53,12 +53,16 @@ h6{
    max-width: initial;
 }
 
-.row {
-  max-width: 100%
+.row .full-width{
+  max-width: 100%;
+  padding: 10px, 50px, 10px, 10px;
 }
 
 #week1{
     background-color: #808080;
+    color: #fff;
+
+    /*margin-right: 10px;*/
 }
 
 #week2{
