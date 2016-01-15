@@ -23,7 +23,20 @@ h6{
 .subheader{
   color: #fff;
 }
+.accordion-title:hover{
+  background-color: #8dc153 !important;
+}
+.days{
+  color: #353B47;
+}
+.subtitle{
+  font-weight: 600;
+}
 /*footer*/
+footer{
+  background-color: #8dc153;
+  margin:0px;
+}
 .copy {
     background-color: #8DC153;
     padding: 2em 0;
@@ -47,24 +60,13 @@ h6{
     color: #999;
 }
 
-.fullWidth {
-   width: 100%;
-   margin-left: auto;
-   margin-right: auto;
-   max-width: initial;
+
+.weeks, h2 {
+    text-align: center !important;
 }
 
-.row .full-width{
-  max-width: 100%;
-  padding: 10px, 50px, 10px, 10px;
-}
-
-#weeks {
-    text-align: center;
-}
-
-#week1,
-#week2{
+#msweeks{
 /*    margin-left: 30px;*/
-    padding: 10px 10px 10px 60px;
+   margin-right: 1px;
+   margin-left: 1px;
 }
