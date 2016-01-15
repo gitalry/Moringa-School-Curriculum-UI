@@ -33,7 +33,7 @@ i {
 
 .header {
     height: 150px;
-    background-color: #8bc34a;
+    background-color: #8DC153;
 }
 
 /*
@@ -65,7 +65,7 @@ i {
 }
 .icon:hover {
     font-size: 100px;
-    color: darkgreen;
+    color: #8DC153;
 }
 .login h1,
 .login p {
