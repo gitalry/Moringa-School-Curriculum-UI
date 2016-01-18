@@ -15,11 +15,23 @@ h5,
 h6{
     font-family: 'Raleway', serif; 
 }
-
+/*nav*/
+nav{ 
+  position: fixed;
+  z-index: 1;
+}
+#right{
+   margin-left:800px; 
+   margin-right: 400px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+}
 #hello{
   font-size: 18px;
 }
-
+.zero{
+  position: absolute;
+}
 .subheader{
   color: #fff;
 }
@@ -69,4 +81,18 @@ footer{
 /*    margin-left: 30px;*/
    margin-right: 1px;
    margin-left: 1px;
+}
+
+@media screen and (max-width: 30em) {
+ nav ul li{
+  display: block !important;
+ }
+ #right{
+  margin-left:0px;
+   padding-top: 7px;
+   padding-bottom: 7px;
+}
+.zero{
+  opacity: 0;
+}
 }
