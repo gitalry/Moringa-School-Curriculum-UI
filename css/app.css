@@ -79,8 +79,8 @@ footer{
 
 #msweeks{
 /*    margin-left: 30px;*/
-   margin-right: 1px;
-   margin-left: 1px;
+   margin-right: 40px;
+   margin-left: 40px;
 }
 
 @media screen and (max-width: 30em) {
