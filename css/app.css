@@ -76,13 +76,16 @@ footer{
 .weeks, h2 {
     text-align: center !important;
 }
-
 #msweeks{
 /*    margin-left: 30px;*/
    margin-right: 40px;
    margin-left: 40px;
 }
-
+.bttn{
+  border: 2px solid white !important;
+  border-radius: 4px;
+  padding: 5px;
+}
 .pu{
   padding-top: 10px;
   padding-bottom: 12px;
@@ -125,12 +128,67 @@ footer a:hover{
 .pyth{
   margin-right: 72px;
 }
+.no:hover{
+  background-color: rgba(0,0,0,0) !important;
+}
 .pa{
   display: none;
 }
-@media screen and (max-width: 30em) {
- nav ul li{
-  display: block !important;
+/*shapes*/
+.frnt{
+  text-align: center;
+  background-color: rgba(42,68,255,1);
+  padding-top:60px;
+  padding-bottom: 60px; 
+  margin-right:5px; 
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+}
+.pyt{
+  text-align: center;
+  background-color: rgba(255,54,32,1);
+  padding-top:70px;
+  margin-left:5px; 
+  padding-bottom: 70px; 
+  border-radius: 5px;
+   color: white;
+  font-size: 20px;
+}
+.andr{
+  margin-top: -15px;
+  text-align: center;
+  background-color: rgba(32,255,40,1);
+  padding-top:70px;
+  padding-bottom: 70px; 
+  margin-right:5px; 
+  border-radius: 5px;
+   color: white;
+  font-size: 20px;
+}
+.inte{
+   margin-top: -15px;
+ text-align: center;
+  background-color: rgba(235,154,32,1);
+  padding-top:80px;
+  margin-left:5px; 
+  padding-bottom: 80px; 
+  border-radius: 5px;
+   color: white;
+  font-size: 20px;
+}
+.frnt:hover, .pyt:hover, .andr:hover, .inte:hover{
+  background-color: #8DC153;
+}
+.small{
+  display: none;
+}
+@media screen and (max-width:800px) {
+ .big{
+  display: none;
+ }
+ .small{
+  display: block;
  }
  .pu{
   display: none;
@@ -141,10 +199,15 @@ footer a:hover{
  }
  #right{
   margin-left:0px;
-   padding-top: 7px;
-   padding-bottom: 7px;
+   padding-top: 2px;
+   padding-bottom: 2px;
 }
 .zero{
-  opacity: 0;
+  position: relative;
 }
+}
+@media screen and (max-width: 500px){
+  nav ul li{
+    display: block !important;
+  }
 }
