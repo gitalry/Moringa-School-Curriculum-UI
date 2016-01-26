@@ -21,7 +21,26 @@
     <link href='meta_icons/apple-touch-icon-76x76.png' rel='apple-touch-icon-precomposed' sizes='114x114'>
     <link href='meta_icons/apple-touch-icon-152x152.png' rel='apple-touch-icon-precomposed' sizes='144x144'>
      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <link rel="stylesheet" href="https://api.github.com">
+      <script src="js/oauth-js/dist/oauth.js"></script>
      <!-- // <script type="text/javascript" src="js/scroll.js"></script>  -->
+      <script>
+          OAuth.initialize('HDdOYzwEsvFqqzg0LJYoVGFAE0E');
+          OAuth.popup('github')
+                  .done(function(result) {
+                      result.get('/me')
+                              .done(function (response) {
+                                  //this will display "John Doe" in the console
+                                  console.log(response.name);
+                              })
+                              .fail(function (err) {
+                                  //handle error with err
+                              });
+                  })
+                  .fail(function (err) {
+                      //handle error with err
+                  });
+      </script>
   </head>
   <!-- End of head-->
 
