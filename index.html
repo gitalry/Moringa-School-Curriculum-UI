@@ -21,7 +21,13 @@
     <link href='meta_icons/apple-touch-icon-76x76.png' rel='apple-touch-icon-precomposed' sizes='114x114'>
     <link href='meta_icons/apple-touch-icon-152x152.png' rel='apple-touch-icon-precomposed' sizes='144x144'>
      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <link rel="stylesheet" href="https://api.github.com">
+     <script type="text/javascript" src="js/scroll.js"></script>
+       <script type="text/javascript">
+    $(document).ready(function() {
+    $(document).foundation();
+});
+    </script> 
+       <link rel="stylesheet" href="https://api.github.com">
       <script src="js/oauth-js/dist/oauth.js"></script>
      <!-- // <script type="text/javascript" src="js/scroll.js"></script>  -->
       <script>
@@ -45,14 +51,14 @@
   <!-- End of head-->
 
     <body>
-
+<a href="#" class="go-top">Back to top</a>
     <nav>
       <div class="title-bar" data-responsive-toggle="menu" data-hide-for="medium">
-  <button class="right fixd" type="button" data-toggle><i class="fa fa-bars"></i></button>
+  <button class="right bttn fixd" type="button" data-toggle><i class="fa fa-bars"></i></button> 
 </div>
 <div class="top-bar" id="menu" data-animation-in="hingeOutFromMiddleY">
-<div class=" zero">
-  <img src="img/logo.png" height="450px" width="75px">
+<div class="zero">
+  <a class="no" href="index.html"><img src="img/moringaschool.png" height="450px" width="75px"></a>
 </div>
     <div id="right">
     <div class="top-bar-right up">
@@ -63,6 +69,7 @@
       <li><a href="#week1">Week 1</a></li>
      <li><a href="#week2">Week 2</a></li>
      <li><a href="#week3">Week 3</a></li>
+     <li><a href="front.html">Resources</a></li>
     </ul>
   </li>
     <li>
@@ -72,6 +79,7 @@
       <li><a href="#week5">Week 5</a></li>
      <li><a href="#week6">Week 6</a></li>
      <li><a href="#week7">Week 7</a></li>
+     <li><a href="python.html">Resources</a></li>
     </ul>
   </li>
     <li>
@@ -81,6 +89,7 @@
       <li><a href="#week9">Week 9</a></li>
      <li><a href="#week10">Week 10</a></li>
      <li><a href="#week11">Week 11</a></li>
+     <li><a href="android.html">Resources</a></li>
     </ul>
   </li>
    <li>
@@ -93,6 +102,7 @@
      <li><a href="#week16">Week 16</a></li>
     </ul>
   </li>
+  <li><a href="general.html">Resources</a></li>
 </ul>
 </div>
 </div>
@@ -119,8 +129,10 @@
                    <p id="hello">Hello!<br>
                     Welcome to the beginning of your Moringa School curriculum.<br>
                     </p>
+                    </div>
 <br/>
 <br/>  
+<section id="msweeks">
                     <!-- Week 1 -->                   
                   <div class="row" class="weeks" id="week1">
                     <h2>week 1: Front-End</h2>
@@ -139,19 +151,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Data structures and algorithms
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -166,19 +180,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Data structures and algorithms
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Lecture
+       <br/>
+       Coding
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -193,19 +209,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Data structures and algorithms
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -220,7 +238,7 @@
       <p>
       <span class="subtitle">Morning to Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       UX - User Experience
       </p>
     </div>
   </li>
@@ -235,19 +253,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Data structures and algorithms
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -273,7 +293,7 @@
 <hr>
                    
                   <div class="row" class="weeks" id="week2">
-                    <h2>week 2: Lorem ipsum</h2>
+                    <h2>week 2: Front-end</h2>
                   </div>
                  <br> 
 
@@ -289,19 +309,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Data structures and algorithms
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+      Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -316,19 +338,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Data structures and algorithms
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Lecture
+       <br/>
+       Coding
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -343,19 +367,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Data structures and algorithms
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -370,7 +396,7 @@
       <p>
       <span class="subtitle">Morning to Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       UX - User Experience
       </p>
     </div>
   </li>
@@ -385,19 +411,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Data structures and algorithms
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -423,7 +451,7 @@
 <hr>
 <!-- Week 3 -->                   
                   <div class="row" class="weeks" id="week3">
-                    <h2>week 3: Lorem ipsum</h2>
+                    <h2>week 3: Front-end</h2>
                   </div>
                  <br> 
 
@@ -439,19 +467,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Data structures and algorithms
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -466,19 +496,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Data structures and algorithms
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Lecture
+       <br/>
+       Coding
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -493,19 +525,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Data structures and algorithms
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -520,7 +554,7 @@
       <p>
       <span class="subtitle">Morning to Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       UX - User Experience
       </p>
     </div>
   </li>
@@ -535,19 +569,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Data structures and algorithms
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -573,7 +609,7 @@
 <hr>
 <!-- Week 4 -->                
                   <div class="row" class="weeks" id="week4">
-                    <h2>week 4: Lorem ipsum</h2>
+                    <h2>week 4: Python</h2>
                   </div>
                  <br> 
 
@@ -589,19 +625,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -616,19 +654,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Lecture
+       <br/>
+       Coding
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -643,19 +683,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -670,7 +712,7 @@
       <p>
       <span class="subtitle">Morning to Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       UX - User Experience
       </p>
     </div>
   </li>
@@ -685,19 +727,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -723,7 +767,7 @@
 <hr>
 <!-- Week 5 -->                   
                   <div class="row" class="weeks" id="week5">
-                    <h2>week 5: Lorem ipsum</h2>
+                    <h2>week 5: Python</h2>
                   </div>
                  <br> 
 
@@ -739,19 +783,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -766,19 +812,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Lecture
+       <br/>
+       Coding
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -793,19 +841,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -820,7 +870,7 @@
       <p>
       <span class="subtitle">Morning to Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+      UX - User Experience
       </p>
     </div>
   </li>
@@ -835,19 +885,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -873,7 +925,7 @@
 <hr>
 <!-- Week 6 -->                   
                   <div class="row" class="weeks" id="week6">
-                    <h2>week 6: Lorem ipsum</h2>
+                    <h2>week 6: Python</h2>
                   </div>
                  <br> 
 
@@ -889,19 +941,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -916,19 +970,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Lecture
+       <br/>
+       Coding
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -943,19 +999,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -970,7 +1028,7 @@
       <p>
       <span class="subtitle">Morning to Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+      UX - User Experience
       </p>
     </div>
   </li>
@@ -985,19 +1043,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1023,7 +1083,7 @@
 <hr>
 <!-- Week 7 -->                   
                   <div class="row" class="weeks" id="week7">
-                    <h2>week 7: Lorem ipsum</h2>
+                    <h2>week 7: Python</h2>
                   </div>
                  <br> 
 
@@ -1039,19 +1099,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1066,19 +1128,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+      Lecture 
+      <br/>
+      Coding
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1093,19 +1157,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1120,7 +1186,7 @@
       <p>
       <span class="subtitle">Morning to Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       UX - User Experience
       </p>
     </div>
   </li>
@@ -1135,19 +1201,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1173,7 +1241,7 @@
 <hr>
 <!-- Week 8 -->                   
                   <div class="row" class="weeks" id="week8">
-                    <h2>week 8: Lorem ipsum</h2>
+                    <h2>week 8: Android</h2>
                   </div>
                  <br> 
 
@@ -1189,19 +1257,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1216,19 +1286,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+     Lecture
+     <br/>
+     Coding
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1243,19 +1315,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1270,7 +1344,7 @@
       <p>
       <span class="subtitle">Morning to Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+      UX -User Experience
       </p>
     </div>
   </li>
@@ -1285,19 +1359,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1323,7 +1399,7 @@
 <hr>
 <!-- Week 9 -->                   
                   <div class="row" class="weeks" id="week9">
-                    <h2>week 9: Lorem ipsum</h2>
+                    <h2>week 9: Android</h2>
                   </div>
                  <br> 
 
@@ -1339,19 +1415,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1366,19 +1444,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Lecture
+       <br/>
+       Coding
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1393,19 +1473,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1420,7 +1502,7 @@
       <p>
       <span class="subtitle">Morning to Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+      UX - User Experience
       </p>
     </div>
   </li>
@@ -1435,19 +1517,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1473,7 +1557,7 @@
 <hr>
 <!-- Week 10 -->                    
                   <div class="row" class="weeks" id="week10">
-                    <h2>week 10: Lorem ipsum</h2>
+                    <h2>week 10: Android</h2>
                   </div>
                  <br> 
 
@@ -1489,19 +1573,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+        Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1516,19 +1602,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Lecture
+       <br/>
+       Coding
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1543,19 +1631,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1570,7 +1660,7 @@
       <p>
       <span class="subtitle">Morning to Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       UX - User Experience
       </p>
     </div>
   </li>
@@ -1585,19 +1675,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1623,7 +1715,7 @@
 <hr>
 <!-- Week 11 -->                    
                   <div class="row" class="weeks" id="week11">
-                    <h2>week 11: Lorem ipsum</h2>
+                    <h2>week 11: Android</h2>
                   </div>
                  <br> 
 
@@ -1639,19 +1731,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1666,19 +1760,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Lecture
+       <br/>
+       Coding
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1693,19 +1789,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1720,7 +1818,7 @@
       <p>
       <span class="subtitle">Morning to Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       UX - User Experience
       </p>
     </div>
   </li>
@@ -1735,19 +1833,21 @@
       <p>
       <span class="subtitle">Early Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Toy problem
       </p>
 
        <p>
       <span class="subtitle">Mid Morning:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+      Self Assessment
+       <br/>
+       Lecture
       </p>
 
        <p>
       <span class="subtitle">Afternoon:</span>
       <br/>
-       Lorem Ipsum dolor situm elumn
+       Coding
       </p>
     </div>
   </li>
@@ -1773,7 +1873,7 @@
 <hr>
 <!-- Week 12 -->                    
                   <div class="row" class="weeks" id="week12">
-                    <h2>week 12: Lorem ipsum</h2>
+                    <h2>week 12: Project</h2>
                   </div>
                  <br> 
 
@@ -1788,18 +1888,6 @@
     <div id="monday12" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="monday12-heading">
       <p>
       <span class="subtitle">Early Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
@@ -1818,18 +1906,6 @@
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
     </div>
   </li>
   <!-- Wednesday -->
@@ -1842,18 +1918,6 @@
     <div id="wednesday12" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="wednesday12-heading">
       <p>
       <span class="subtitle">Early Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
@@ -1887,18 +1951,6 @@
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
     </div>
   </li>
   <!-- Weekend -->
@@ -1923,7 +1975,7 @@
 <hr>
 <!-- Week 13 -->                    
                   <div class="row" class="weeks" id="week13">
-                    <h2>week 13: Lorem ipsum</h2>
+                    <h2>week 13: Project</h2>
                   </div>
                  <br> 
 
@@ -1938,18 +1990,6 @@
     <div id="monday13" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="monday13-heading">
       <p>
       <span class="subtitle">Early Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
@@ -1968,18 +2008,6 @@
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
     </div>
   </li>
   <!-- Wednesday -->
@@ -1992,18 +2020,6 @@
     <div id="wednesday13" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="wednesday13-heading">
       <p>
       <span class="subtitle">Early Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
@@ -2037,18 +2053,6 @@
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
     </div>
   </li>
   <!-- Weekend -->
@@ -2073,7 +2077,7 @@
 <hr>
 <!-- Week 14 -->                    
                   <div class="row" class="weeks" id="week14">
-                    <h2>week 14: Lorem ipsum</h2>
+                    <h2>week 14: Project</h2>
                   </div>
                  <br> 
 
@@ -2091,42 +2095,18 @@
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
     </div>
   </li>
   <!-- Tuesday -->
   <li class="accordion-item ">
     <a href="#tuesday14" role="tab" class="accordion-title" id="tuesday14-heading" aria-controls="tuesday14"> 
-    <h5 class="days">
+    <h5 class="days">Jidenna
     <b>Tuesday:</b>
     </h5>
     </a>
     <div id="tuesday14" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="tuesday14-heading">
       <p>
       <span class="subtitle">Early Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
@@ -2142,18 +2122,6 @@
     <div id="wednesday14" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="wednesday14-heading">
       <p>
       <span class="subtitle">Early Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
@@ -2187,18 +2155,6 @@
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
     </div>
   </li>
   <!-- Weekend -->
@@ -2223,7 +2179,7 @@
 <hr>
 <!-- Week 15 -->                    
                   <div class="row" class="weeks" id="week15">
-                    <h2>week 15: Lorem ipsum</h2>
+                    <h2>week 15: Project</h2>
                   </div>
                  <br> 
 
@@ -2238,18 +2194,6 @@
     <div id="monday15" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="monday15-heading">
       <p>
       <span class="subtitle">Early Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
@@ -2268,18 +2212,6 @@
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
     </div>
   </li>
   <!-- Wednesday -->
@@ -2292,18 +2224,6 @@
     <div id="wednesday15" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="wednesday15-heading">
       <p>
       <span class="subtitle">Early Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
@@ -2337,18 +2257,6 @@
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
     </div>
   </li>
   <!-- Weekend -->
@@ -2373,7 +2281,7 @@
 <hr>
 <!-- Week 16 -->                    
                   <div class="row" class="weeks" id="week16">
-                    <h2>week 16: Lorem ipsum</h2>
+                    <h2>week 16: Project</h2>
                   </div>
                  <br> 
 
@@ -2388,18 +2296,6 @@
     <div id="monday16" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="monday16-heading">
       <p>
       <span class="subtitle">Early Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
@@ -2418,18 +2314,6 @@
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
     </div>
   </li>
   <!-- Wednesday -->
@@ -2442,18 +2326,6 @@
     <div id="wednesday16" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="wednesday16-heading">
       <p>
       <span class="subtitle">Early Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
@@ -2487,18 +2359,6 @@
       <br/>
        Lorem Ipsum dolor situm elumn
       </p>
-
-       <p>
-      <span class="subtitle">Mid Morning:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
-
-       <p>
-      <span class="subtitle">Afternoon:</span>
-      <br/>
-       Lorem Ipsum dolor situm elumn
-      </p>
     </div>
   </li>
   <!-- Weekend -->
@@ -2517,10 +2377,45 @@
     </div>
   </li>
 </ul>
-
+</section>
 <br/>
 <br/>
+<footer>
+  <div>
+  <p class="cnt">Resources</p>
+      <div class="row pu">
 
+          <div class="large-2 medium-2 columns">
+            <a href="front.html"><img title="Front-end" class="grey" src="img/frontend.png"></a>
+          </div>
+           <div class="large-2 medium-2 columns">
+            <a href="python.html"><img title="Python" class="grey" src="img/python.png"></a>
+          </div>
+           <div class="large-2 medium-2 columns">
+            <a href="android.html"><img title="Android" class="grey" src="img/android.png"></a>
+          </div>
+         
+            <div class="large-2 medium-2 columns">
+            <a href="ux.html"><img title="User Experience" class="grey" src="img/user.png"></a>
+          </div>
+           <div class="large-2 medium-2 columns">
+            <a href="general.html"><img title="General resources" class="grey" src="img/general.png"></a>
+          </div>
+           <div class="large-2 medium-2 columns">
+            <a href="https://moringaconduct.azurewebsites.net/"><img title="Moringa Conduct" class="grey" src="img/conduct.png"></a>
+          </div>
+          </div>
+          <div class="row pa">
+            <div class="large-3 medium3 columns">
+              <a href="front.html">Front-end</a>
+              <a href="python.html">Python</a>
+              <a href="android.html">Android</a>
+              <a href="general.html">General</a>
+              <a href="https://moringaconduct.azurewebsites.net/">Moringa Conduct</a>
+            </div>
+          </div>
+  <span class="cent">Copyright &copy; 2016 Moringa School</span>
+</footer>
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
