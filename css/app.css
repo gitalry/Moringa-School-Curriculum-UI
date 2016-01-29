@@ -1,6 +1,8 @@
+*{
+  font-family: 'Raleway', serif;
+}
 html,
-body {
-    font-family: 'Raleway', serif;
+body {    
     color: #232a35;
 /*    margin-left: 20px;*/
 /*    text-align: center;*/
@@ -14,6 +16,37 @@ h4,
 h5,
 h6{
     font-family: 'Raleway', serif; 
+}
+.lg{
+  text-align: center;
+  padding-top: 70px;
+}
+.gl{
+  text-align: center;
+}
+.lgin{
+  margin-top: 100px;
+  position: fixed;
+  padding-left: 576px;
+  padding-right: 576px;
+}
+.ms{
+  height: 80px;
+  width: 135px;
+  margin-bottom: -30px;
+  margin-top: -30px;
+}
+.git{
+  text-align: center;
+  font-size: 80px;
+  margin-top:-30px; 
+  margin-bottom: -30px;
+}
+.fa-github{
+  color: #8DC153;
+}
+.fa-github:hover{
+  color:  #353B47;
 }
 /*nav*/
 nav{ 
@@ -192,6 +225,9 @@ footer a:hover{
 }
 @media screen and (max-width:800px) {
  .big{
+  display: none;
+ }
+ .lgin{
   display: none;
  }
  .small{

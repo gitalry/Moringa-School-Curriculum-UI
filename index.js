@@ -10,7 +10,7 @@ var app = express();
 var gh = github('2a900d9e9871c1b4c27f', '450c8bd04e582370a1de97206268c6aa3e07840b', {
   // users: ['wathika']
 	organization: 'moringaschool',
-  team: 'kehirs',
+  team: 'cohort 5',
 	// autologin: true // This automatically redirects you to github to login
 });
 
