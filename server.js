@@ -2,6 +2,7 @@ var root = require('root');
 var github = require('github-auth');
 var express = require('express');
 var path = require('path');
+var http = require('http');
 
 // var app = root();
 var app = express();
@@ -10,7 +11,7 @@ var app = express();
 var gh = github('2a900d9e9871c1b4c27f', '450c8bd04e582370a1de97206268c6aa3e07840b', {
   // users: ['wathika']
 	organization: 'moringaschool',
-  team: 'cohort 5',
+  team: 'cohort-5',
 	// autologin: true // This automatically redirects you to github to login
 });
 
@@ -24,10 +25,11 @@ app.use(express.static(__dirname + '/'));
 
 app.all('*', gh.authenticate);
 app.all('*', function(req, res, next) {
-  if (!req.github) res.sendFile('index.html');
+  // if (!req.github) res.sendFile('login.html');
+	if (!req.github) return res.sendFile(__dirname + '/login.html');
 
 
-  if (!req.github.authenticated) return res.sendFile(path.join(__dirname+'/kickout.html'));
+  if (!req.github.authenticated) res.sendFile(path.join(__dirname+'/kickout.html'));
   next();
 });
 
@@ -39,6 +41,10 @@ app.get('/about',function(req,res){
   res.sendFile('/kickout.html');
 });
 
-app.listen(3000);
+// app.listen(3000);
+//
+// console.log("Running at Port 3000");
 
-console.log("Running at Port 3000");
+http.createServer(app).listen(process.env.port || 3000, function() {
+    console.log('Express app started');
+});
