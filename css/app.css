@@ -280,9 +280,26 @@ footer a:hover{
 .br {
   display: none !important; }
 
-@media screen and (max-width: 1000px) {
-  .body{
+.mob{
+  display: none;
+}
+@media screen and (max-width: 1050px) {
+    .body{
     display: none;
+  }
+  .mob{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+ 
+  .pad{
+    font-size: 12px;
+  }
+  .time{
+      margin-top: -70px;
+  padding-top: 90px;
   }
   #home {
     height: 400px; }
