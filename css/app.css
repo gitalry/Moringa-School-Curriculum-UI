@@ -200,6 +200,14 @@ li {
   background-color: rgba(123, 82, 152, 0.5);
   padding: 7px;
 }
+.dev{
+  background-color: rgba(123, 129, 189, 0.5);
+  padding: 7px;
+}
+.tap{
+  background-color: rgba(181, 29, 170, 0.5);
+  padding: 7px;
+}
 /*************/
 /*back to top*/
 /**************/
@@ -273,6 +281,9 @@ footer a:hover{
   display: none !important; }
 
 @media screen and (max-width: 1000px) {
+  .body{
+    display: none;
+  }
   #home {
     height: 400px; }
 .tet{
