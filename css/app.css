@@ -1,3 +1,4 @@
+
 * {
   font-family: 'Raleway', serif; }
 
@@ -18,8 +19,40 @@ body {
   color: white;
   padding-top: 140px;
 }
+
 .ms{
   font-size: 60px;
+}
+.lg{
+  text-align: center;
+  padding-top: 70px;
+}
+.gl{
+  text-align: center;
+}
+.lgin{
+  margin-top: 100px;
+  position: fixed;
+  padding-left: 576px;
+  padding-right: 576px;
+}
+
+.git{
+  text-align: center;
+  font-size: 80px;
+  margin-top:-30px; 
+  margin-bottom: -30px;
+}
+.fa-github{
+  color: #8DC153;
+}
+.fa-github:hover{
+  color:  #353B47;
+}
+/*nav*/
+nav{ 
+  position: fixed;
+  z-index: 1;
 }
 .sm{
   font-size: 40px;
@@ -245,6 +278,24 @@ footer a:hover{
 .tet{
   color: white;
   padding-top: 100px;
+}
+ .lgin{
+  display: none;
+ }
+ .small{
+  display: block;
+ }
+ .pu{
+  display: none;
+ }
+ .pa{
+  display: block;
+  padding-bottom: 12px;
+ }
+ #right{
+  margin-left:0px;
+   padding-top: 2px;
+   padding-bottom: 2px;
 }
 .ms{
   font-size: 50px;
